@@ -26,13 +26,13 @@ pipeline
         }
     }
     stages {
-        stage("Создание тестовой базы") {
+        stage("Init test IB") {
             steps {
                 bat "chcp 65001 \n vrunner init-dev --dt D:/Dev/DT/1Cv8.dt"
  
             }
         }
-        stage("Дымовые тесты") {
+        stage("Smoke test") {
             steps {
                 script{
                     try {
