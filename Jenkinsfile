@@ -32,6 +32,18 @@ pipeline
  
             }
         }
+        stage("Дымовые тесты") {
+            steps {
+                script{
+                    try {
+                        bat "chcp 65001\n runner xunit"
+                    } catch(Exception Exc) {
+                         currentBuild.result = 'UNSTABLE'
+                    }
+                }
+ 
+            }
+        }
 
     
     }
