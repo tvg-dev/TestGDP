@@ -2,8 +2,8 @@
 
 @rem for current user
 
-git config --global user.name "Your Name"
-git config --global user.email your@email
+git config --global user.name "TVG"
+git config --global user.email vladis@inbox.ru
 
 @rem global
 
@@ -35,3 +35,4 @@ git config --global http.postBuffer 1048576000
 
 @rem git config --system core.longpaths true
 @rem SET LC_ALL=C.UTF-8
+pause
