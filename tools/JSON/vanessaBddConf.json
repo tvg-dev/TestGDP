@@ -1,7 +1,7 @@
 ﻿{
     "$schema":"https://raw.githubusercontent.com/vanessa-opensource/vanessa-runner/develop/behavior-schema.json",
     "ИмяСборки": "БСП",
-    "ВерсияПлатформы": "8.3.12",
+    "ВерсияПлатформы": "",
     "ВыводитьСообщенияВФайл": "./build/bdd-log.txt",
     "КаталогПроекта": "$workspaceRoot",
     "КаталогФич": "$workspaceRoot/./features",
