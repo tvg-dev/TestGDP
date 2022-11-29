@@ -1,6 +1,6 @@
 {
     "$schema":"https://github.com/vanessa-opensource/vanessa-runner/develop/xunit-schema.json",
-    "Отладка":false,
+    "Отладка":true,
     "ДобавлятьИмяПользователяВПредставлениеТеста":true,
     "ДелатьЛогВыполненияСценариевВТекстовыйФайл":true,
     "ИмяФайлаЛогВыполненияСценариев": "$workspaceRoot/build/log-xunit.txt",
@@ -280,7 +280,7 @@
     },
 
     "smokeInputBasedOn": {
-        "Используется" : true,
+        "Используется" : false,
         "Исключения": {
             "ДокументыПроведенные": [
                 "ЧтоОткрываем/ДокументОснование",
